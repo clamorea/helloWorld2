@@ -1,0 +1,28 @@
+p {
+    color: darkred;
+    font-size: 2em ;
+}
+/* The colors that I chose match the Maryland color scheme*/
+h2{
+    color: goldenrod;
+    font-size: 5em;
+}
+
+table, td, th{
+    border-style: solid;
+    border-color: lightslategray;
+}
+/* I mad sure that the headers had a noticeably larger font size than the paragraphs*/
+p#pg3{
+    color: goldenrod;
+    font-size: 2em;
+}
+
+li.dkgry{
+    color: darkgray;
+}
+/* this replaced the in line dimensions for the quest logo*/
+img.dim{
+    width: 221px;
+    height: 92px;
+}
