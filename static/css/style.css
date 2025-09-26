@@ -1,11 +1,11 @@
 p {
     color: darkred;
-    font-size: 2em ;
+    font-size: 1em ;
 }
 /* The colors that I chose match the Maryland color scheme*/
 h2{
     color: goldenrod;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 table, td, th{
@@ -15,7 +15,7 @@ table, td, th{
 /* I mad sure that the headers had a noticeably larger font size than the paragraphs*/
 p#pg3{
     color: goldenrod;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 li.dkgry{
