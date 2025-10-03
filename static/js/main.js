@@ -6,7 +6,7 @@ function changeText() {
 // I chose to translate my paragraph into Spanish along with changing the color and font
 
 function displayGreeting() {
-    let name = document.getElementById("nameInput");
+    let name = document.getElementById("nameInput").value;
     alert( "Hello, " + name);
 }
 
