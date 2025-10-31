@@ -68,6 +68,17 @@
     {% endif %}
   </div>
 
+    <div class="col-md-4">
+        <label for="email" class="form-label"><strong>Email</strong></label>
+        {% if action and action in ['create', 'update'] %}
+            <input type="email" class="form-control" id="email" name="email"
+                   value="{{ student['email'] if student else '' }}" required readonly
+                   style="background-color: #e9ecef; cursor: not-allowed;">
+        {% else %}
+            <br><strong>{{ student['email'] }}</strong>
+        {% endif %}
+    </div>
+
   {% if action and action in ['read', 'update'] %}
   <div class="col-md-4">
     <label for="num_credits_completed" class="form-label"><strong>Number of Credits Completed</strong></label>
@@ -118,11 +129,6 @@
         {% endif %}
     </a>
   </div>
-    <div class="mb-3">
-        <label for="email" class="form-label"><strong>Email</strong></label>
-        <input type="email" class="form-control" id="email" name="email" maxlength="100"
-           value="{{ student.email if student else '' }}" required>
-    </div>
 
 </form>
 {% endblock %}
